@@ -244,9 +244,4 @@
   background: black; /* optional: or keep it transparent */
   pointer-events: none;
 }
-.container::after {
-  content: "";
-  display: table;
-  clear: both;
-}
 
