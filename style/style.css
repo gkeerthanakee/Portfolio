@@ -33,16 +33,19 @@
     font-size: 1.8rem;
   }
 
-  .site-header nav {
-    float: right;
-    margin-right: 20px;
-  }
+.site-header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
 
-  .site-header nav ul {
-    list-style: none;
-    display: flex;
-    gap: 25px;
-  }
+.site-header h1,
+.site-header nav {
+  float: none;
+  margin: 0;
+}
+
 
   .site-header nav a {
     color: #00ffcc;
