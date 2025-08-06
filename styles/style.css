@@ -245,3 +245,36 @@
   pointer-events: none;
 }
 
+.internships-section {
+  padding: 50px 30px;
+  background: rgba(148, 14, 14, 0.03);
+  border-radius: 12px;
+  margin-bottom: 30px;
+  box-shadow: 0 0 15px rgba(25, 147, 147, 0.159);
+  backdrop-filter: blur(3px);
+}
+
+.internship-item {
+  margin-bottom: 30px;
+  padding: 20px;
+  border-left: 6px solid #1be7ff;
+  background-color: rgba(255, 255, 255, 0.03);
+  border-radius: 12px;
+  transition: box-shadow 0.3s ease;
+}
+
+.internship-item:hover {
+  box-shadow: 0 0 20px rgba(27, 231, 255, 0.2);
+}
+
+.internship-item h3 {
+  color: #1be7ff;
+  font-size: 1.4rem;
+  margin-bottom: 12px;
+}
+
+.internship-item p {
+  font-size: 1.05rem;
+  color: #cbd5e1;
+  line-height: 1.6;
+}
